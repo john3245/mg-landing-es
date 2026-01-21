@@ -1,0 +1,126 @@
+.privacy-container {
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  color: #171d1d;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+  padding-bottom: 40px;
+}
+
+.privacy-header {
+  background-color: #171d1d; /* Secondary Color */
+  color: #ffffff;
+  padding: 40px 20px;
+  border-bottom: 6px solid #75d7a2; /* Primary Color Accent */
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.app-logo {
+  width: 80px;
+  height: 80px;
+  border-radius: 18px; /* App icon style */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  object-fit: cover;
+}
+
+.privacy-header h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: #75d7a2; /* Primary Color */
+  text-align: left;
+}
+
+.privacy-content {
+  max-width: 800px;
+  margin: -20px auto 0;
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.last-update {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 30px;
+  font-style: italic;
+}
+
+.section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #171d1d; /* Secondary Color */
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #75d7a2; /* Primary Color */
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #171d1d; /* Secondary Color */
+  font-size: 1.2rem;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.section-text {
+  white-space: pre-wrap; /* Preserves newlines */
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+.section-text a {
+  color: #1a0dab; /* Standard Google Link Blue for familiarity and contrast */
+  text-decoration: underline;
+  word-break: break-word; /* Prevents overflow for long URLs */
+}
+
+.section-text a:hover {
+  color: #75d7a2; /* Hover effect using primary brand color */
+}
+
+.subsections {
+  padding-left: 20px;
+}
+
+.subsections li {
+  margin-bottom: 8px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .header-content {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .privacy-header {
+    padding: 30px 20px;
+  }
+  
+  .privacy-header h1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .privacy-content {
+    margin: 0;
+    border-radius: 0;
+    padding: 20px;
+  }
+
+  .subsections {
+    padding-left: 10px;
+  }
+}
